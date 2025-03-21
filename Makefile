@@ -1,4 +1,4 @@
-ifeq ($(THEOS_PACKAGE_SCHEME),rootless)
+ifeq ($(THEOS_PACKAGE_SCHEME),roothide)
 TARGET = iphone:clang:latest:15.0
 else
 TARGET = iphone:clang:latest:11.0
